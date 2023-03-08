@@ -93,11 +93,11 @@ public class Main {
         var workingHours = 640;
         var workerNorm = 8;
         var numberWorkers = workingHours / workerNorm;
-        System.out.println("Всего работников в компании — " + numberWorkers + " человек");
+        System.out.println("Всего работников в компании — " + numberWorkers + " человек.");
         var additionalStaff = 94;
         var numberWorks1 = numberWorkers + additionalStaff;
         var workerNorm1 = workerNorm * numberWorks1;
-        System.out.println("Если в компании работает " + numberWorks1 + " человек, то всего " + workerNorm1 + " часов работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + numberWorks1 + " человек, то всего " + workerNorm1 + " часов работы может быть поделено между сотрудниками.");
     }
 
 
